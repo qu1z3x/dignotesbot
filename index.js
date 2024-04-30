@@ -7,10 +7,10 @@ import cron from "node-cron";
 
 const TOKENs = [
 	"7072188605:AAGRJq0QEasOS3CYVBnjBZdnIzpRDRWoYpI",
-	"7068045329:AAF0ZeLcIKKEvcubFTb2rWhmFBqrlWId0i8",
+	"6999678531:AAH758IqV5Rlip6zUeoGG6Qw2uYnGkz-smM",
 ];
 
-const TOKEN = TOKENs[1]; // 1 - оригинал
+const TOKEN = TOKENs[0]; // 1 - оригинал
 const bot = new TelegramBot(TOKEN, { polling: true });
 
 const qu1z3xId = "923690530";
